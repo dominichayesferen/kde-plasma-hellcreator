@@ -9,9 +9,13 @@ withaccent.py: Generate and apply a truly hellish colour scheme, alongside apply
 
 noaccent.py: Generate and apply a truly hellish colour scheme, all while disabling the KDE Plasma Accent Colours feature if enabled
 
-## Example usecases
+## Example uses
 
-tbd
+![Preview 1, eminating the man behind the slaughter and Windows Me Year of Luigi Edition energy]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/1.png])
+![Preview 2, also known as R E D .]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/2.png])
+![Preview 3, with a very human design]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/3.png])
+![Preview 4, which looks a suspicious lot like poop ngl]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/4.png])
+![Preview 5, and I don't even know how to describe this one]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/5.png])
 
 ## w h y
 
@@ -19,4 +23,4 @@ why not.
 
 ## where do I get it?
 
-You can get it from Releases, or you can just clone this repository and get the files that way (be warned that the former is recommended as the latter could be broken without any notice).
+You can get it from <a href="https://github.com/dominichayesferen/kde-plasma-hellcreator/releases/latest">Releases</a>, or you can just clone this repository and get the files that way (be warned that the former is recommended as the latter could be broken without any notice).
