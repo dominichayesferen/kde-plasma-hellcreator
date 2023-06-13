@@ -11,11 +11,11 @@ noaccent.py: Generate and apply a truly hellish colour scheme, all while disabli
 
 ## Example uses
 
-![Preview 1, eminating the man behind the slaughter and Windows Me Year of Luigi Edition energy]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/1.png])
-![Preview 2, also known as R E D .]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/2.png])
-![Preview 3, with a very human design]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/3.png])
-![Preview 4, which looks a suspicious lot like poop ngl]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/4.png])
-![Preview 5, and I don't even know how to describe this one]([https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/5.png])
+![Preview 1, eminating the man behind the slaughter and Windows Me Year of Luigi Edition energy](https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/1.png)
+![Preview 2, also known as R E D .](https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/2.png)
+![Preview 3, with a very human design](https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/3.png)
+![Preview 4, which looks a suspicious lot like poop ngl](https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/4.png)
+![Preview 5, and I don't even know how to describe this one](https://github.com/dominichayesferen/kde-plasma-hellcreator/raw/main/preview/5.png)
 
 ## w h y
 
