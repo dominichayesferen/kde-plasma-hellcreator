@@ -5,9 +5,9 @@ Ever wanted to make the world's worst KDE Plasma rice to ever exist? Ever wanted
 
 Simply run the respective .py file.
 
-withaccent.py: Generate and apply a truly hellish colour scheme, alongside applying a randomised accent colour too
+**withaccent.py**: Generate and apply a truly hellish colour scheme, alongside applying a randomised accent colour too
 
-noaccent.py: Generate and apply a truly hellish colour scheme, all while disabling the KDE Plasma Accent Colours feature if enabled
+**noaccent.py**: Generate and apply a truly hellish colour scheme, all while disabling the KDE Plasma Accent Colours feature if enabled
 
 ## Example uses
 
