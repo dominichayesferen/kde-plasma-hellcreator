@@ -1,6 +1,8 @@
 # KDE Plasma HELL Creator
 Ever wanted to make the world's worst KDE Plasma rice to ever exist? Ever wanted people to be unable to bear using your computer when they ask you if they can borrow it? No? Well too bad, this tool will do all of that with ease anyway.
 
+Inspired by https://forums.risi.io/t/rtheme-hell-generator/77
+
 ## Usage
 
 Simply run the respective .py file.
