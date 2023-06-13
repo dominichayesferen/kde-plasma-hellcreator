@@ -1,0 +1,195 @@
+#!/usr/bin/python3
+
+import random
+import os
+
+def randcol():
+    return str(random.randint(0, 255))
+
+if not os.path.isdir(os.path.expanduser("~/.local/share/color-schemes")):
+    os.mkdir(os.path.expanduser("~/.local/share/color-schemes"))
+with open(os.path.expanduser("~/.local/share/color-schemes/HELL.colors"), "w") as fp:
+    i=["[ColorEffects:Disabled]"]
+    i.append("Color=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ColorAmount=" + str(random.randint(0,1000) / 1000))
+    i.append("ColorEffect=" + str(random.randint(0,3)))
+    i.append("ContrastAmount=" + str(random.randint(0,1000) / 1000))
+    i.append("ContrastEffect=" + str(random.randint(0,2)))
+    i.append("IntensityAmount=" + str(random.randint(0,1000) / 1000))
+    i.append("IntensityEffect=" + str(random.randint(0,3)))
+    i.append("")
+    i.append("[ColorEffects:Inactive]")
+    i.append("ChangeSelectionColor=" + ("true" if random.randint(0,1) == 0 else "false"))
+    i.append("Color=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ColorAmount=" + str(random.randint(0,1000) / 1000))
+    i.append("ColorEffect=" + str(random.randint(0,3)))
+    i.append("ContrastAmount=" + str(random.randint(0,1000) / 1000))
+    i.append("ContrastEffect=" + str(random.randint(0,2)))
+    i.append("Enable=" + ("true" if random.randint(0,1) == 0 else "false"))
+    i.append("IntensityAmount=" + str(random.randint(0,1000) / 1000))
+    i.append("IntensityEffect=" + str(random.randint(0,3)))
+    i.append("")
+    i.append("[Colors:Button]")
+    i.append("BackgroundAlternate=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("BackgroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationFocus=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationHover=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundActive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundInactive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundLink=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNegative=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNeutral=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundPositive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundVisited=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("")
+    i.append("[Colors:Complementary]")
+    i.append("BackgroundAlternate=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("BackgroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationFocus=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationHover=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundActive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundInactive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundLink=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNegative=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNeutral=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundPositive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundVisited=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("")
+    i.append("[Colors:Header]")
+    i.append("BackgroundAlternate=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("BackgroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationFocus=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationHover=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundActive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundInactive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundLink=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNegative=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNeutral=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundPositive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundVisited=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("")
+    i.append("[Colors:Header][Inactive]")
+    i.append("BackgroundAlternate=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("BackgroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationFocus=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationHover=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundActive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundInactive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundLink=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNegative=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNeutral=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundPositive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundVisited=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("")
+    i.append("[Colors:Selection]")
+    i.append("BackgroundAlternate=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("BackgroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationFocus=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationHover=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundActive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundInactive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundLink=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNegative=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNeutral=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundPositive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundVisited=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("")
+    i.append("[Colors:Tooltip]")
+    i.append("BackgroundAlternate=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("BackgroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationFocus=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationHover=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundActive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundInactive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundLink=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNegative=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNeutral=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundPositive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundVisited=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("")
+    i.append("[Colors:View]")
+    i.append("BackgroundAlternate=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("BackgroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationFocus=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationHover=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundActive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundInactive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundLink=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNegative=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNeutral=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundPositive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundVisited=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("")
+    i.append("[Colors:Window]")
+    i.append("BackgroundAlternate=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("BackgroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationFocus=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("DecorationHover=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundActive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundInactive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundLink=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNegative=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNeutral=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundNormal=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundPositive=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("ForegroundVisited=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("")
+    i.append("[General]")
+    i.append("ColorScheme=HELL")
+    i.append("Name=H E L L")
+    i.append("TintFactor=" + str(random.randint(0,1000) / 1000))
+    i.append("accentActiveTitlebar=" + ("true" if random.randint(0,1) == 0 else "false"))
+    i.append("accentInactiveTitlebar=" + ("true" if random.randint(0,1) == 0 else "false"))
+    i.append("shadeSortColumn=" + ("true" if random.randint(0,1) == 0 else "false"))
+    i.append("")
+    i.append("[KDE]")
+    i.append("color=" + str(random.randint(0,10)))
+    i.append("contrast=" + str(random.randint(0,10)))
+    i.append("")
+    i.append("[WM]")
+    i.append("activeBackground=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("activeBlend=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("activeForeground=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("inactiveBackground=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("inactiveBlend=" + randcol() + "," + randcol() + "," + randcol())
+    i.append("inactiveForeground=" + randcol() + "," + randcol() + "," + randcol())
+
+    fp.write('\n'.join(i))
+
+if os.path.isfile("/usr/bin/plasma-apply-colorscheme"):
+    if os.path.isfile(os.path.expanduser("~/.config/kdeglobals")):
+        with open(os.path.expanduser("~/.config/kdeglobals"), 'r') as fp:
+            kdeglobs = fp.readlines()
+        count=0
+        changedaccent = False
+        changedwallac = False
+        for i in kdeglobs:
+            if i.startswith("AccentColor="):
+                kdeglobs[count] = "AccentColor[$d]\n"
+                changedaccent = True
+            elif i.startswith("accentColorFromWallpaper="):
+                kdeglobs[count] = "accentColorFromWallpaper=false\n"
+                changedwallac = True
+            count += 1
+        if changedaccent != True or changedwallac != True:
+            count=0
+            for i in kdeglobs:
+                if i == "[General]\n":
+                    kdeglobs[count] = "[General]" + \
+                        ("\nAccentColor[$d]" if changedaccent != True else "") + \
+                        ("\naccentColorFromWallpaper=false" if changedwallac != True else "") + "\n"
+                count += 1
+        with open(os.path.expanduser("~/.config/kdeglobals"), 'w') as fp:
+            fp.write(''.join(kdeglobs))
+    for i in "BreezeDark", "Breeze", "Oxygen":
+        if os.path.isfile("/usr/share/color-schemes/" + i + ".colors"):
+            os.system("/usr/bin/plasma-apply-colorscheme " + i)
+            break
+    os.system("/usr/bin/plasma-apply-colorscheme HELL")
